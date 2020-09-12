@@ -8,5 +8,4 @@ It creates new Windows Tasks which runs by default at 7am for light theme and 8p
  - To manually change the theme, run changeLight.bat or changeDark.bat
  
  To view the tasks after installation, go Task Scheduler on Windows, then Task Scheduler Library, under which you should see 'Theme Changer'
- You can tweak the properties of the task to your preference.
  
