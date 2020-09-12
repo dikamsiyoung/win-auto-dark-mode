@@ -1,0 +1,2 @@
+SCHTASKS /CREATE /SC DAILY /TN "Theme Changer\Light Theme" /TR "%CD%\changeLight.bat" /ST 07:00 /DU 00:30 /K
+SCHTASKS /CREATE /SC DAILY /TN "Theme Changer\Dark Theme" /TR "%CD%\changeDark.bat" /ST 20:00 /DU 00:30 /K
