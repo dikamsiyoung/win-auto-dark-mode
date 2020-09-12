@@ -1,6 +1,8 @@
 # Windows Dark Mode Changer
 Turns on light or dark theme depending on the time of day. 
-It creates new Windows Tasks which runs by default at 7am for light theme and 8pm for dark theme.
+It creates new Windows Tasks which runs the edits the Windows theme registry at 7am for light theme and 8pm for dark theme.
+
+It's a quick and easy way for people who don't want to install additional applications on their PCs.
 
 ## How to use
  - Open *install.bat* and edit the start time (after '/ST') of both Light and Dark theme to your preference.
