@@ -1,4 +1,4 @@
-# Auto Dark Mode Changer
+# Auto Dark Mode
 Turns on light or dark theme depending on the time of day.  
 It creates new Windows Tasks which edits Windows theme registry for light theme at 7am and at 8pm for dark theme.
 
