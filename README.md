@@ -1,4 +1,4 @@
-# Windows Theme Changer
+# Windows Dakr Mode Changer
 Turns on light or dark theme depending on the time of day. 
 It creates new Windows Tasks which runs by default at 7am for light theme and 8pm for dark theme.
 
