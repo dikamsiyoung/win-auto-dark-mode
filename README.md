@@ -1,6 +1,6 @@
 # Auto Dark Mode
 Turns on light or dark theme depending on the time of day.  
-It creates new Windows Tasks which edits Windows theme registry for light theme at 7am and at 8pm for dark theme.
+This script creates new Windows Tasks which edits Windows theme registry for light theme at 7am and at 8pm for dark theme.
 
 ## Importance
 Light theme conserves battery life in the day with minimal brightness required to read screen contents while dark theme protects the eyes in night with lesser white screens.
