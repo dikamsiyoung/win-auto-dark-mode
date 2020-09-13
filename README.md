@@ -4,7 +4,7 @@ This script creates new Windows Tasks which edits Windows theme registry for lig
 
 ## Importance
 Light theme conserves battery life in the day with minimal brightness required to read screen contents while dark theme protects the eyes at night with lesser white screens.
-Auto Dark Mode Changer is a quick and easy way to automate the process of switching between light and dark theme in a minimal way without additional third-party applications.
+Auto Dark Mode is a quick and easy way to automate the process of switching between light and dark theme in a minimal way without additional third-party applications.
 
 ## How to use
  - Open *install.bat* and edit the start time (after '/ST') of both Light and Dark theme to your preference.
