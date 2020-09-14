@@ -35,6 +35,12 @@ SCHTASKS /CREATE /TN "Theme Changer\Change at log in" /TR "%CD%\Scripts\autoChan
 
 echo Auto-dark-mode has been installed successfully!
 
+cd Scripts
+echo cd %cd% > dir.txt
+type autoChange.bat >> dir.txt
+type dir.txt > autoChange.bat
+del /f dir.txt
+
 endlocal
 
 pause
