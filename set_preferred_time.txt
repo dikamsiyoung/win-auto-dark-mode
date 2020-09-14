@@ -1,7 +1,7 @@
 ## Uses twenty-four convention
 
-Time for Light Theme:
+Start time for Light Mode:
 07:00
 
-Time for dark Theme:
+Start time for Dark Mode:
 20:00
