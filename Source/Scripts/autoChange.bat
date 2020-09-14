@@ -1,6 +1,4 @@
-cd C:\Users\kboyz\OneDrive\Desktop\Career\DATASC~1\HOMEPR~1\DARKTH~1\AUTO-D~1\Source\Scripts 
-cd C:\Users\kboyz\OneDrive\Desktop\Career\DATASC~1\HOMEPR~1\DARKTH~1\AUTO-D~1\Source\Scripts 
-cd C:\Users\kboyz\OneDrive\Desktop\Career\DATASC~1\HOMEPR~1\DARKTH~1\AUTO-D~1\Source\Scripts 
+cd C:\Users\kboyz\OneDrive\Desktop\Career\DATASC~1\HOMEPR~1\DARKTH~1\AUTO-D~1\Source 
 @echo off
 
 cd ..
