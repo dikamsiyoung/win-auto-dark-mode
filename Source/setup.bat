@@ -31,7 +31,7 @@ if '%errorlevel%' NEQ '0' (
 
 echo Setting up Run at Logon...
 
-SCHTASKS /CREATE /TN "Theme Changer\Dark Theme" /TR "%CD%\Scripts\autoChange.bat" /SC ONLOGON
+SCHTASKS /CREATE /TN "Theme Changer\Change at log in" /TR "%CD%\Scripts\autoChange.bat" /SC ONLOGON
 
 echo Auto-dark-mode has been installed successfully!
 
