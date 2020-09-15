@@ -1,4 +1,5 @@
 ## Uses twenty-four hour convention
+## Please add a leading zero to single digit hours
 
 Start time for Light Mode:
 07:00
