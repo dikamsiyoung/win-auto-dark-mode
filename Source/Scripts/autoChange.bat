@@ -23,7 +23,7 @@ For /f "tokens=1-2 delims=/:" %%a in ("%arr[1]%") do (set /a evening=%%a)
 For /f "tokens=1-2 delims=/:" %%a in ("%TIME%") do (set /a ctime=%%a)
 
 if /I "%ctime%" GEQ "%morning%" (
-   if /I "%ctime%" LEQ "%evening%" (
+   if /I "%ctime%" LSS "%evening%" (
    call changeLight.bat
    echo Light Theme
    ) else (
