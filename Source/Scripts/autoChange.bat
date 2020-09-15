@@ -22,9 +22,6 @@ cd Source\Scripts
 For /f "tokens=1-2 delims=/:" %%a in ("%arr[0]%") do (set morning=%%a)
 For /f "tokens=1-2 delims=/:" %%a in ("%arr[1]%") do (set /a evening=%%a)
 For /f "tokens=1-2 delims=/:" %%a in ("%TIME%") do (set /a ctime=%%a)
-echo %morning%
-echo %evening%
-echo %ctime%
 
 if /I "%ctime%" GEQ "%morning%" (
    if /I "%ctime%" LEQ "%evening%" (
