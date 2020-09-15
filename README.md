@@ -12,8 +12,8 @@ Auto Dark Mode is a quick and easy way to automate the process of switching betw
  - Run *install.bat*. That's all.
  
 ## Note
- To view the tasks after installation, go Task Scheduler, expand the Task Scheduler Library, under which you should see 'Theme Changer'
- 
- You can set each task to 'Run as soon as possible when start is missed' in the 'Properties' windows
+ - To view the tasks after installation, go Task Scheduler, expand the Task Scheduler Library, under which you should see 'Theme Changer'
+ - You can set each task to 'Run as soon as possible when start is missed' in the 'Properties' windows
+ - When changing the time, run the installer again to update the setting in Task Scheduler
  
  
