@@ -28,7 +28,7 @@ if /I "%ctime%" GEQ "%morning%" (
    echo Light Theme
    ) else (
       call changeDark.bat
-      echo Light Theme
+      echo Dark Theme
    )
 ) else (
    call changeDark.bat
