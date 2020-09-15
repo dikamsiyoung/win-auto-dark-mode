@@ -14,4 +14,6 @@ Auto Dark Mode is a quick and easy way to automate the process of switching betw
 ## Note
  To view the tasks after installation, go Task Scheduler, expand the Task Scheduler Library, under which you should see 'Theme Changer'
  
+ You can set each task to 'Run as soon as possible when start is missed' in the 'Properties' windows
+ 
  

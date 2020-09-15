@@ -1,4 +1,4 @@
-## Uses twenty-four convention
+## Uses twenty-four hour convention
 
 Start time for Light Mode:
 07:00

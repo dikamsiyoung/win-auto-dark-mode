@@ -1,4 +1,3 @@
-cd C:\Users\kboyz\OneDrive\Desktop\Career\DATASC~1\HOMEPR~1\DARKTH~1\AUTO-D~1\Source 
 @echo off
 
 cd ..
@@ -21,9 +20,6 @@ cd Source\Scripts
 For /f "tokens=1-2 delims=/:" %%a in ("%arr[0]%") do (set morning=%%a%%b)
 For /f "tokens=1-2 delims=/:" %%a in ("%arr[1]%") do (set /a evening=%%a%%b)
 For /f "tokens=1-2 delims=/:" %%a in ("%TIME%") do (set /a ctime=%%a%%b)
-echo %morning%
-echo %evening%
-echo %ctime%
 
 if /I "%ctime%" GEQ "%morning%" (
    if /I "%ctime%" LSS "%evening%" (
@@ -31,7 +27,7 @@ if /I "%ctime%" GEQ "%morning%" (
    echo Light Theme
    ) else (
       call changeDark.bat
-      echo Light Theme
+      echo Dark Theme
    )
 ) else (
    call changeDark.bat
