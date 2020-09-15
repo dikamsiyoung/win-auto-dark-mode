@@ -33,7 +33,7 @@ echo Setting up Run at Logon...
 
 for %%A in ("%cd%") do set "filepath=%%~sA"  
 
-SCHTASKS /CREATE /TN "Theme Changer\Change at log in" /TR "%filepath%\Scripts\autoChange.bat" /SC ONLOGON
+SCHTASKS /CREATE /TN "Theme Changer\Change at log in" /TR "%filepath%\Scripts\autoChange.bat" /SC ONLOGON /ru %username% /it
 
 echo Auto-dark-mode has been installed successfully!
 
