@@ -1,12 +1,11 @@
 @echo 0ff
 
-set /a count = 1
-set /a list
-echo %cd%
-
 setlocal enableextensions enabledelayedexpansion
 
 rem --> Obtain preferred time from file
+set /a count = 1
+set /a list
+echo %cd%
 for /f %%a in ('type "set_preferred_time.txt" ^| findstr /R "[0-9]" set_preferred_time.txt') do (
   set /a count += 1
   set "list=!List! %%a"
