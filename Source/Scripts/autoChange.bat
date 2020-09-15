@@ -1,7 +1,6 @@
 @echo off
 
 cd ..
-cd ..
 setlocal enableextensions enabledelayedexpansion
 set /a count = 1
 set "list"
