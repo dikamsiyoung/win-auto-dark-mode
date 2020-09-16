@@ -9,6 +9,6 @@ rem --> Clean up old location in autoChange.bat
 cd Source
 call "reset.bat"
 
-echo echo Auto-dark-mode has been uninstalled.
+echo Auto-dark-mode has been uninstalled.
 
 pause
