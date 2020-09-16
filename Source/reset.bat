@@ -3,11 +3,15 @@
 rem --> Obtain shortened filepath
 for %%A in ("%cd%") do set "filepath=%%~sA"
 
-rem --> Replace scripts with original version
+rem --> Replace vbs scripts with original version
 cd Scripts\Origin
-type "autoChange.bat" > %filepath%\Scripts\Batch\autoChange.bat
 type "autoChange.vbs" > %filepath%\Scripts\autoChange.vbs
-type "changeLight.bat" > %filepath%\Scripts\Batch\changeLight.bat
-type "startLightMode.vbs" > %filepath%\Scripts\startLightMode.vbs
-type "changeDark.bat" > %filepath%\Scripts\Batch\changeDark.bat
 type "startDarkMode.vbs" > %filepath%\Scripts\startDarkMode.vbs
+type "startLightMode.vbs" > %filepath%\Scripts\startLightMode.vbs
+
+rem --> Replace batch scripts with original version
+cd Batch
+type "changeLight.bat" > %filepath%\Scripts\Batch\changeLight.bat
+type "changeDark.bat" > %filepath%\Scripts\Batch\changeDark.bat
+type "autoChange.bat" > %filepath%\Scripts\Batch\autoChange.bat
+
