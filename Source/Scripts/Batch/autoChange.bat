@@ -22,7 +22,7 @@ for %%I in (%list%) do (
 )
 set i=0
 For /f "tokens=1-2 delims=/:" %%a in ("%arr[0]%") do (set morning=%%a%%b)
-For /f "tokens=1-2 delims=/:" %%a in ("%arr[1]%") do (set /a evening=%%a%%b)
+For /f "tokens=1-2 delims=/:" %%a in ("%arr[1]%") do (set evening=%%a%%b)
 For /f "tokens=1-2 delims=/:" %%a in ("%TIME%") do (set ctime=%%a%%b)
 
 rem --> Replace whitespace with 0
