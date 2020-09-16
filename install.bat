@@ -92,6 +92,8 @@ del /f changeDark.bat
 type dir.txt > changeDark.bat
 del /f dir.txt
 
+cls
+
 echo Auto-dark-mode has been installed successfully!
 
 endlocal

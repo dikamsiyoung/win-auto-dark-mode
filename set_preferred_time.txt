@@ -2,7 +2,7 @@
 ## Please add a leading zero to single digit hours
 
 Start time for Light Mode:
-07:30
+07:00
 
 Start time for Dark Mode:
 20:00
