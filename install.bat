@@ -93,6 +93,32 @@ del /f changeDark.bat
 type dir.txt > changeDark.bat
 del /f dir.txt
 
+cd ..
+
+rem --> Copy current address to autoChange.vbs
+echo Dim filepath > dir.txt
+echo filepath = "%filepath%\Scripts\Batch\autoChange.bat" >> dir.txt
+type autoChange.vbs >> dir.txt
+del /f autoChange.vbs
+type dir.txt >> autoChange.vbs
+del /f dir.txt
+
+rem --> Copy current address to startLightMode.vbs
+echo Dim filepath > dir.txt
+echo filepath = "%filepath%\Scripts\Batch\changeLight.bat" >> dir.txt
+type startLightMode.vbs >> dir.txt
+del /f startLightMode.vbs
+type dir.txt >> startLightMode.vbs
+del /f dir.txt
+
+rem --> Copy current address to startDarkMode.vbs
+echo Dim filepath > dir.txt
+echo filepath = "%filepath%\Scripts\Batch\changeDark.bat" >> dir.txt
+type startDarkMode.vbs >> dir.txt
+del /f startDarkMode.vbs
+type dir.txt >> startDarkMode.vbs
+del /f dir.txt
+
 cls
 
 echo Auto-dark-mode has been installed successfully!

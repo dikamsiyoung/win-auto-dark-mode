@@ -31,7 +31,7 @@ set ctime=%ctime: =0%
 cls
 
 rem --> Conditional switching of themes
-cd Source\Scripts
+cd Source\Scripts\Batch
 if /I "%ctime%" GEQ "%morning%" (
    if /I "%ctime%" LSS "%evening%" (
    call changeLight.bat
