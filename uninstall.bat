@@ -8,3 +8,7 @@ SCHTASKS /DELETE /TN "Theme Changer\Change at log in"
 rem --> Clean up old location in autoChange.bat
 cd Source
 call "reset.bat"
+
+echo echo Auto-dark-mode has been uninstalled.
+
+pause
