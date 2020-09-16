@@ -9,7 +9,7 @@ Auto Dark Mode is a quick and easy way to automate the process of switching betw
 ## How to use
  - Download the zip and extract it to a location on your PC. The scripts need to remain in that location after installation.
  - Edit *set_preferred_time* for your desired Light and Dark mode timing.
- - Run *install.bat*. That's all.
+ - Run *install.bat* and that's all 🤗.
  
 ## Note
  - To view the tasks after installation, go Task Scheduler, expand the Task Scheduler Library, under which you should see 'Theme Changer'
