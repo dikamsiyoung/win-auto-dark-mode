@@ -24,8 +24,8 @@ for %%A in ("%cd%") do set "filepath=%%~sA"
 cls
 
 rem --> Create Tasks for Light and Dark Theme
-SCHTASKS /CREATE /SC DAILY /TN "Theme Changer\Light Theme" /TR "%filepath%\Source\changeLight.bat" /ST %arr[0]% /DU 00:30 /K
-SCHTASKS /CREATE /SC DAILY /TN "Theme Changer\Dark Theme" /TR "%filepath%\Source\changeDark.bat" /ST %arr[1]% /DU 00:30 /K
+SCHTASKS /CREATE /SC DAILY /TN "Theme Changer\Light Theme" /TR "%filepath%\Source\Scripts\changeLight.bat" /ST %arr[0]% /DU 00:30 /K
+SCHTASKS /CREATE /SC DAILY /TN "Theme Changer\Dark Theme" /TR "%filepath%\Source\Scripts\changeDark.bat" /ST %arr[1]% /DU 00:30 /K
 
 rem --> Setup Change on Logon (Requires Admin)
 cd Source
