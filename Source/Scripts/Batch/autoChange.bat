@@ -1,3 +1,5 @@
+rem "Batch is called with Admin rights and needs to be routed back to Source folder" 
+cd C:\Users\kboyz\OneDrive\Desktop\Career\DATASC~1\HOMEPR~1\DARKTH~1\AUTO-D~1\Source 
 
 @echo off
 
@@ -22,7 +24,7 @@ for %%I in (%list%) do (
 )
 set i=0
 For /f "tokens=1-2 delims=/:" %%a in ("%arr[0]%") do (set morning=%%a%%b)
-For /f "tokens=1-2 delims=/:" %%a in ("%arr[1]%") do (set evening=%%a%%b)
+For /f "tokens=1-2 delims=/:" %%a in ("%arr[1]%") do (set /a evening=%%a%%b)
 For /f "tokens=1-2 delims=/:" %%a in ("%TIME%") do (set ctime=%%a%%b)
 
 rem --> Replace whitespace with 0

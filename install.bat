@@ -94,7 +94,7 @@ del /f dir.txt
 
 cd Batch
 
-rem --> Copy current address to autoChange.bat because it runs as Admin
+rem --> Copy current address to autoChange.bat
 echo rem "Batch is called with Admin rights and needs to be routed back to Source folder" > dir.txt
 echo cd %filepath% >> dir.txt
 type autoChange.bat >> dir.txt
