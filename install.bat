@@ -91,6 +91,7 @@ type startDarkMode.vbs >> dir.txt
 del /f startDarkMode.vbs
 type dir.txt >> startDarkMode.vbs
 del /f dir.txt
+
 cd Batch
 
 rem --> Copy current address to autoChange.bat because it runs as Admin
