@@ -56,8 +56,8 @@ for %%A in ("%cd%") do set "filepath=%%~sA"
 cls
 
 rem --> Create Tasks for Light and Dark Theme
-SCHTASKS /CREATE /SC DAILY /TN "Theme Changer\Light Theme" /TR "%filepath%\Source\Scripts\startLightMode.vbs" /ST %arr[0]% /DU 00:30 /K
-SCHTASKS /CREATE /SC DAILY /TN "Theme Changer\Dark Theme" /TR "%filepath%\Source\Scripts\startDarkMode.vbs" /ST %arr[1]% /DU 00:30 /K
+SCHTASKS /CREATE /SC DAILY /TN "Theme Changer\Light Theme" /TR "%filepath%\Source\Scripts\startLightMode.vbs" /ST %arr[0]% /DU 00:30 /K /ru %username% /it
+SCHTASKS /CREATE /SC DAILY /TN "Theme Changer\Dark Theme" /TR "%filepath%\Source\Scripts\startDarkMode.vbs" /ST %arr[1]% /DU 00:30 /K /ru %username% /it
 
 rem --> Create Auto Change task
 SCHTASKS /CREATE /TN "Theme Changer\Change at log in" /TR "%filepath%\Source\Scripts\autoChange.vbs" /SC ONLOGON /ru %username% /it
