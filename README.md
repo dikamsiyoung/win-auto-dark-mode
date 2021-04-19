@@ -18,7 +18,7 @@ Auto Dark Mode is a quick and easy way to automate the process of switching betw
  - After changing the time in the script, run the installer again to update the setting in Task Scheduler
 
 ## Recognized Issues
- - Transition to any mode with Transparency on battery is buggy in Windows 10 (as at Build 1909)
+ - Transition to any mode while on battery with Transparency on is buggy in Windows 10 (as at Build 1909)
  - You have to set each task in 'Theme Changer' folder to 'Run as soon as possible when start is missed'. No way to configure it from the BAT file.
  
  
