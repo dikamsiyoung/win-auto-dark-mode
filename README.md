@@ -13,12 +13,13 @@ Auto Dark Mode is a quick and easy way to automate the process of switching betw
  - If you change the location of the folder, please re-run the installer to update the location in Windows Task Scheduler.
  
 ## Note
- - To view the tasks after installation, go Task Scheduler, expand the Task Scheduler Library, under which you should see 'Theme Changer'
- - You can set each task to 'Run as soon as possible when start is missed' in the 'Properties' windows
+ - To view the tasks after installation, go Task Scheduler, expand the Task Scheduler Library, under which you should see **Theme Changer**
+ - You can set each task to _Run as soon as possible after a scheduled start is missed_ by checking the option in the **Settings** after double-clicking the tasks.
+ - You can also uncheck the option to _Start task only if the computer is on AC power_ in the **Conditions** tab.
  - After changing the time in the script, run the installer again to update the setting in Task Scheduler
 
 ## Recognized Issues
  - Transition to any mode while on battery with Transparency on is buggy in Windows 10 (as at Build 1909)
- - You have to set each task in 'Theme Changer' folder to 'Run as soon as possible when start is missed'. No way to configure it from the BAT file.
+ - You have to set each task in **Theme Changer** folder to 'Run as soon as possible when start is missed'. No way to configure it from the BAT file.
  
  
