@@ -1,4 +1,4 @@
-# Auto Dark Mode
+# Windows Auto Dark Mode
 Turns on light or dark theme depending on the time of day.  
 This script creates new Windows Tasks which edit Windows theme registry for light theme at 7am and at 8pm for dark theme.
 
@@ -16,7 +16,7 @@ Auto Dark Mode is a quick and easy way to automate the process of switching betw
  - To view the tasks after installation, go Task Scheduler, expand the Task Scheduler Library. You should see the **Theme Changer** folder.
  - You can set each task to _Run as soon as possible after a scheduled start is missed_ by checking the option in the **Settings** tab after double-clicking the particular task.
  - You can also uncheck the option to _Start task only if the computer is on AC power_ in the **Conditions** tab.
- - After changing the time in the script, run the installer again to update the setting in Task Scheduler. You may have to remake these changes for convenience.
+ - You can change your preferred time anytime however, for it to work optimally you can reinstall the script.
 
 ## Recognized Issues
  - Transition to any mode while on battery with Transparency on is buggy in Windows 10 (as at Build 1909)
